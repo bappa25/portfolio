@@ -19,8 +19,8 @@ footer small { opacity: 0.9; }
 
 /* Custom CSS to control the profile image size */
 .profile-img {
-    width: 400px; /* Adjust this value to your desired width */
-    height: 400px; /* Adjust this value to your desired height */
+    width: 200px; /* Adjust this value to your desired width */
+    height: 200px; /* Adjust this value to your desired height */
     /* optional: object-fit ensures the image covers the area without distortion */
     object-fit: cover; 
 }
