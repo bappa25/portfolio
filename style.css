@@ -1,11 +1,4 @@
 
-/* Custom CSS to control the profile image size */
-.profile-img {
-    width: 200px; /* Adjust this value to your desired width */
-    height: 200px; /* Adjust this value to your desired height */
-    /* optional: object-fit ensures the image covers the area without distortion */
-    object-fit: cover; 
-}
 
 body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; background: #f5f8fc; color: #333; }
 .profile-img { border: 5px solid #fff; box-shadow: 0 6px 16px rgba(0,0,0,0.1); }
@@ -24,10 +17,10 @@ footer small { opacity: 0.9; }
 @media (max-width: 576px){ .display-5 { font-size:1.6rem; } .profile-img { max-width:160px; } }
 
 
+/* Custom CSS to control the profile image size */
 .profile-img {
-  width: 100px;
-  height: 150  px;
-  object-fit: cover;
-  border: 5px solid #fff;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    width: 400px; /* Adjust this value to your desired width */
+    height: 400px; /* Adjust this value to your desired height */
+    /* optional: object-fit ensures the image covers the area without distortion */
+    object-fit: cover; 
 }
