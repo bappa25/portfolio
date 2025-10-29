@@ -1,3 +1,12 @@
+
+/* Custom CSS to control the profile image size */
+.profile-img {
+    width: 200px; /* Adjust this value to your desired width */
+    height: 200px; /* Adjust this value to your desired height */
+    /* optional: object-fit ensures the image covers the area without distortion */
+    object-fit: cover; 
+}
+
 body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; background: #f5f8fc; color: #333; }
 .profile-img { border: 5px solid #fff; box-shadow: 0 6px 16px rgba(0,0,0,0.1); }
 
