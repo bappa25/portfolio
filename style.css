@@ -16,8 +16,8 @@ footer small { opacity: 0.9; }
 
 
 .profile-img {
-  width: 70px;
-  height: 80  px;
+  width: 100px;
+  height: 150  px;
   object-fit: cover;
   border: 5px solid #fff;
   box-shadow: 0 6px 16px rgba(0,0,0,0.1);
